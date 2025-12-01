@@ -23,10 +23,10 @@ export const DATA = {
       unavailableText: "Busy working",
     },
 
-    // Deskripsi Singkat (Untuk Hero Section)
+    // Untuk Hero Section
     description: "Final-year Information Technology student combining technical expertise in data analysis and machine learning with proven experience in project management and organizational leadership.",
     
-    // Deskripsi Panjang (BARU - Untuk About Section)
+    // Untuk About Section
     about: "I am deeply passionate about transforming raw data into meaningful insights. My journey involves not just building models but understanding the business context behind them. I thrive in environments where I can apply machine learning techniques to solve real-world problems, from predictive analytics to optimizing operational workflows. Beyond code, I enjoy leading teams and fostering collaboration to achieve strategic goals."
   },
 
@@ -36,19 +36,31 @@ export const DATA = {
     { icon: Mail, link: "https://mail.google.com/mail/?view=cm&fs=1&to=radith.fa@gmail.com", label: "Email" },
   ],
 
-  // UBAHAN ICON SKILLS (Menggunakan link yang lebih stabil)
-  skills: [
+  
+ skills: [
+    // --- Data Science & ML Core ---
     { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
     { name: "TensorFlow", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
     { name: "PyTorch", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
+    { name: "Keras", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" },
+    { name: "OpenCV", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
+    
+    // --- Tools & Analysis ---
     { name: "Jupyter", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original-wordmark.svg" },
-    
-    // Icon Baru yang lebih stabil (CDN SimpleIcons)
-    { name: "Google Colab", icon: "https://cdn.simpleicons.org/googlecolab/F9AB00" }, 
-    { name: "Looker Studio", icon: "https://cdn.simpleicons.org/looker/4285F4" },
-    
+    { name: "Google Colab", icon: "https://cdn.simpleicons.org/googlecolab/F9AB00" },
+    { name: "Streamlit", icon: "https://cdn.simpleicons.org/streamlit/FF4B4B" },
     { name: "Data Analysis", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" },
-    { name: "Business Dev", icon: "https://cdn.simpleicons.org/trello/0079BF" }, // Menggunakan icon Trello/Management yang stabil
+    { name: "Looker Studio", icon: "https://cdn.simpleicons.org/looker/4285F4" },
+
+    // --- Web Development ---
+    { name: "JavaScript", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+    { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+    { name: "Node.js", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" },
+
+    // --- DevOps & Tools ---
+    { name: "Git", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+    { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+    { name: "Business Dev", icon: "https://cdn.simpleicons.org/trello/0079BF" },
   ],
 
   workExperiences: [

@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#0f172a", // Warna background gelap (slate-900)
-        secondary: "#334155", // Warna aksen
-        accent: "#38bdf8", // Warna biru muda untuk highlight
+        primary: "#0f172a", 
+        secondary: "#334155", 
+        accent: "#38bdf8", 
       }
     },
   },
