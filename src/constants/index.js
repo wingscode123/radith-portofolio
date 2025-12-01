@@ -104,7 +104,7 @@ export const DATA = {
     },
     {
       id: 3,
-      role: "Vice Head Divison of Finance and Sponsorship",
+      role: "Vice Head Division of Finance and Sponsorship",
       company: "Brawijaya Film Festival",
       period: "April 2023 - Oct 2023",
       description: "Work in the sponsorship department, collaborate to create sponsorship proposals. Distribute and invite companies to become sponsors for our event.",
