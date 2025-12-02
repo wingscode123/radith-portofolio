@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ExternalLink, Github, Folder } from "lucide-react";
+import { ExternalLink, Github, Folder, ArrowRight } from "lucide-react";
 import { DATA } from "../constants";
 
 const Projects = () => {
@@ -28,24 +28,23 @@ const Projects = () => {
               key={project.id}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
+              viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group bg-secondary/20 rounded-2xl overflow-hidden border border-white/5 hover:border-accent/30 transition-all duration-300 flex flex-col hover:-translate-y-2 shadow-lg"
+              className="group bg-secondary/20 rounded-2xl overflow-hidden border border-white/5 md:hover:border-accent/30 transition-all duration-300 flex flex-col md:hover:-translate-y-2 shadow-lg h-full"
             >
               {/* Gambar Project */}
-              <div className="relative h-56 overflow-hidden"> {/* Tinggi gambar sedikit diperbesar (h-56) agar proporsional */}
+              <div className="relative h-56 overflow-hidden flex-shrink-0">
                 <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors duration-300 z-10"></div>
                 <img 
                   src={project.image} 
                   alt={project.title} 
+                  loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
               </div>
 
               {/* Konten Text */}
               <div className="p-6 flex flex-col flex-grow">
-                
-                {/* Header Card: Judul & Icon Links */}
                 <div className="flex justify-between items-start mb-3">
                   <div>
                     <div className="text-accent mb-2">
@@ -56,7 +55,6 @@ const Projects = () => {
                     </h3>
                   </div>
 
-                  {/* Icon Links */}
                   <div className="flex gap-3">
                     {project.github && (
                         <a 
@@ -99,6 +97,24 @@ const Projects = () => {
             </motion.div>
           ))}
         </div>
+
+        {/* --- TOMBOL LIHAT GITHUB --- */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-16 text-center"
+        >
+          <a 
+            href="https://github.com/wingscode123" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-secondary/30 border border-white/10 text-white font-medium hover:bg-accent/10 hover:border-accent hover:text-accent transition-all duration-300 group shadow-lg"
+          >
+            <span>Explore More Projects on GitHub</span>
+            <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+          </a>
+        </motion.div>
 
       </div>
     </section>

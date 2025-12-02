@@ -2,10 +2,15 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import profilePic from "../assets/foto-crop.jpg"; 
 import project1 from "../assets/werrecooked.png";
 import project2 from "../assets/footbal-analysis.jpg";
-import project3 from "../assets/student-depression.jpg";
+import project3 from "../assets/student-depressions.jpg";
 import project4 from "../assets/movie.jpg";
 import project5 from "../assets/celebrity-face.jpg";
 import project6 from "../assets/wine-quality.jpg";
+import logo1 from "../assets/logo-fscm.png";
+import logo2 from "../assets/logo-dbs.jpeg";
+import logo3 from "../assets/logo-idxpartners.png";
+import logo4 from "../assets/logo-bem.jpeg";
+import logo5 from "../assets/logo-byfest.jpeg";
 
 export const DATA = {
   profile: {
@@ -66,10 +71,11 @@ export const DATA = {
   workExperiences: [
     {
       id: 1,
-      role: "IT Project Manager",
+      role: "FL - Procurement (Project Digitalization)",
       company: "PT. FSCM MANUFACTURING INDONESIA",
       period: "Feb 2025 - Aug 2025",
       description: "Designed, developed, and launched a centralized warehouse booking system using Google Apps Script to optimize manual workflows and improve procurement efficiency.",
+      logo: logo1
     },
     {
       id: 2,
@@ -77,6 +83,7 @@ export const DATA = {
       company: "DBS FOUNDATION CODING CAMP",
       period: "Feb 2025 - Jul 2025",
       description: "Completed a structured curriculum covering Python and machine learning, contributing to the 'We're Cooked' capstone project (recipe recommendation system) using Hugging Face API.",
+      logo: logo2
     },
     {
       id: 3,
@@ -84,6 +91,7 @@ export const DATA = {
       company: "ID/X PARTNERS X RAKAMIN ACADEMY",
       period: "Jan 2025 - Feb 2025",
       description: "Analyzed large datasets to identify behavioral trends and developed deep learning models for predictive analysis to support data-driven decision making.",
+      logo: logo3 
     },
   ],
 
@@ -94,6 +102,7 @@ export const DATA = {
       company: "BEM FILKOM UB",
       period: "Jan 2024 - Dec 2024",
       description: "Managed the entrepreneurship program lifecycle (FILKOMPRENEUR), led a cross-functional team, and built collaborations with external partners for student business training.",
+      logo: logo4 
     },
     {
       id: 2,
@@ -101,13 +110,15 @@ export const DATA = {
       company: "BEM FILKOM UB",
       period: "Mar 2023 - Nov 2023",
       description: "Established collaborations with companies for academic initiatives, oversaw merchandise sales, and managed partnerships from outreach to transaction handling.",
+      logo: logo4 
     },
     {
-      id: 3,
+      id: 2,
       role: "Vice Head Division of Finance and Sponsorship",
       company: "Brawijaya Film Festival",
       period: "April 2023 - Oct 2023",
       description: "Work in the sponsorship department, collaborate to create sponsorship proposals. Distribute and invite companies to become sponsors for our event.",
+      logo: logo5 
     },
   ],
 
