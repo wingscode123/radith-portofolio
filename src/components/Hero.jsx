@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-import { Download } from "lucide-react"; // Import icon Download
 import { DATA } from "../constants"; 
 
 const Hero = () => {
@@ -67,16 +66,6 @@ const Hero = () => {
 
           {/* ----- BUTTON ACTIONS ----- */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
-            
-            {/* Tombol Download CV */}
-            <a
-              href={DATA.profile.resume}
-              download
-              className="px-6 py-3 rounded-full bg-white text-primary font-bold hover:bg-gray-200 transition-all duration-300 flex items-center gap-2 shadow-lg hover:shadow-xl hover:-translate-y-1"
-            >
-              <Download size={20} />
-              Download CV
-            </a>
 
             {/* Social Icons */}
             <div className="flex gap-4">
