@@ -35,6 +35,8 @@ export const DATA = {
   },
 
   announcement: {
+    // true: only the announcement card is shown; false: the full site is shown.
+    maintenanceMode: true,
     title: "Redesign in progress",
     message: "A new version of this site is on the way. In the meantime, grab my latest CV:",
     cvLabel: "Download CV",
