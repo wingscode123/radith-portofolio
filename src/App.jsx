@@ -7,8 +7,12 @@ import Experience from './components/Experience';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Announcement from './components/Announcement';
+import { DATA } from './constants';
 
 function App() {
+  if (DATA.announcement.maintenanceMode) return <Announcement />;
+
   return (
     <div className="bg-primary min-h-screen text-white overflow-x-hidden selection:bg-accent selection:text-primary">
       <Navbar />
