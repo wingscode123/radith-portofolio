@@ -34,6 +34,14 @@ export const DATA = {
     about: "I am deeply passionate about transforming raw data into meaningful insights. My journey involves not just building models but understanding the business context behind them. I thrive in environments where I can apply machine learning techniques to solve real-world problems, from predictive analytics to optimizing operational workflows. Beyond code, I enjoy leading teams and fostering collaboration to achieve strategic goals."
   },
 
+  announcement: {
+    title: "Redesign in progress",
+    message: "A new version of this site is on the way. In the meantime, grab my latest CV:",
+    cvLabel: "Download CV",
+    cvUrl: "/cv-radithya-fawwaz-aydin.pdf",
+    cvFileName: "CV-Radithya-Fawwaz-Aydin.pdf",
+  },
+
   socials: [
     { icon: Github, link: "https://github.com/wingscode123", label: "Github" },
     { icon: Linkedin, link: "https://www.linkedin.com/in/radithya-fawwaz-/", label: "LinkedIn" },
