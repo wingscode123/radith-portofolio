@@ -18,7 +18,6 @@ export const DATA = {
     heroName: "Radith",
     role: "Information Technology Student",
     avatar: profilePic,
-    resume: "/cv.pdf",
     
     roles: ["Data Scientist", "Machine Learning Engineer", "AI Enthusiast"],
 
